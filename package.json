@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-replicate-by",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an iterator which replicates each iterated value according to a provided function.",
   "license": "Apache-2.0",
   "author": {
