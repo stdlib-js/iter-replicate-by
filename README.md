@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterReplicateBy;
+})();
 })();
 </script>
 ```
@@ -187,6 +189,7 @@ var count = ctx.count;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
@@ -207,6 +210,7 @@ while ( true ) {
     console.log( v.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -312,7 +316,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/replicate]: https://github.com/stdlib-js/iter-replicate/tree/umd
+[@stdlib/iter/replicate]: https://github.com/stdlib-js/iter-replicate/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
