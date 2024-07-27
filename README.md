@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@deno/mod.js';
+import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@v0.2.2-deno/mod.js';
 ```
 
 #### iterReplicateBy( iterator, fcn\[, thisArg] )
@@ -168,7 +168,7 @@ var count = ctx.count;
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@deno/mod.js';
+import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@v0.2.2-deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
