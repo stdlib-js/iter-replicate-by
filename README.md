@@ -118,9 +118,9 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 The callback function is provided three arguments:
 
--   **value**: iterated value
--   **index**: source iteration index (zero-based)
--   **n**: iteration index (zero-based)
+-   **value**: iterated value.
+-   **index**: source iteration index (zero-based).
+-   **n**: iteration index (zero-based).
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -260,7 +260,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -286,8 +286,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
