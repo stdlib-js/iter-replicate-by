@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-replicate-by/tags). For example,
+
+```javascript
 import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@v0.2.3-deno/mod.js';
 ```
 
@@ -168,7 +173,7 @@ var count = ctx.count;
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@v0.2.3-deno/mod.js';
+import iterReplicateBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-replicate-by@deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
